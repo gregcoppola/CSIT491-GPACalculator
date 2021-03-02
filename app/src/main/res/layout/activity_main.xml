@@ -3,13 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/rl"
+    android:background="@color/white"
+
+
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/background"
-        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +26,8 @@
         android:layout_marginTop="225px"
         android:layout_marginLeft="100px"
         android:text="GRADE 1: "
-        android:textSize="40px" />
+        android:textSize="40px"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,39 +35,45 @@
         android:text="GRADE 2: "
         android:textSize="40px"
         android:layout_marginTop="375px"
-        android:layout_marginLeft="100px"/>
+        android:layout_marginLeft="100px"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GRADE 3: "
         android:textSize="40px"
         android:layout_marginTop="525px"
-        android:layout_marginLeft="100px"/>
+        android:layout_marginLeft="100px"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GRADE 4: "
         android:textSize="40px"
         android:layout_marginTop="675px"
-        android:layout_marginLeft="100px"/>
+        android:layout_marginLeft="100px"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GRADE 5: "
         android:textSize="40px"
         android:layout_marginTop="825px"
-        android:layout_marginLeft="100px"/>
+        android:layout_marginLeft="100px"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GPA"
         android:textSize="40px"
         android:layout_marginTop="975px"
-        android:layout_marginLeft="100px"/>
+        android:layout_marginLeft="100px"
+        android:textStyle="bold"/>
     <EditText
         android:layout_width="300px"
         android:layout_height="120px"
         android:textSize="40px"
+        android:textStyle="bold"
         android:id="@+id/g1"
         android:layout_marginTop="200px"
         android:layout_centerHorizontal="true"/>
@@ -76,6 +81,7 @@
         android:layout_width="300px"
         android:layout_height="120px"
         android:textSize="40px"
+        android:textStyle="bold"
         android:id="@+id/g2"
         android:layout_marginTop="350px"
         android:layout_centerHorizontal="true"/>
@@ -83,6 +89,7 @@
         android:layout_width="300px"
         android:layout_height="120px"
         android:textSize="40px"
+        android:textStyle="bold"
         android:id="@+id/g3"
         android:layout_marginTop="500px"
         android:layout_centerHorizontal="true"
@@ -92,6 +99,7 @@
         android:layout_width="300px"
         android:layout_height="120px"
         android:textSize="40px"
+        android:textStyle="bold"
         android:id="@+id/g4"
         android:layout_marginTop="650px"
         android:layout_centerHorizontal="true"/>
@@ -99,16 +107,20 @@
         android:layout_width="300px"
         android:layout_height="120px"
         android:textSize="40px"
+        android:textStyle="bold"
         android:id="@+id/g5"
         android:layout_marginTop="800px"
         android:layout_centerHorizontal="true"/>
+
     <TextView
-        android:layout_width="300px"
-        android:layout_height="120px"
+        android:id="@+id/total"
+        android:layout_width="181dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="950px"
-        android:textSize="40px"
-        android:id="@+id/total"/>
+        android:textSize="43px"
+        android:gravity="center"
+        android:textStyle="bold" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
